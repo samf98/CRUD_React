@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace CRUD.Models
+namespace CrudWithReactAspNetCore.Models
 {
     public partial class Students
     {

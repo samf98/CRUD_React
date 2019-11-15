@@ -2,7 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata;
 
-namespace CRUD.Models
+namespace CrudWithReactAspNetCore.Models
 {
     public partial class Student_DbContext : DbContext
     {

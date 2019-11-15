@@ -11,7 +11,7 @@ interface AddStudentRecordState {
 
 
 export class AddStudent extends React.Component<RouteComponentProps<{}>, AddStudentRecordState> {
-    constructor(props) {
+    constructor(props:any) {
         super(props);
 
         //here we are intializing the interface's fields with default values.

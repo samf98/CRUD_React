@@ -12,10 +12,10 @@ interface StudentRecordState {
 export class StudentList extends React.Component<RouteComponentProps<{}>, StudentRecordState> {
 
     //Declaring the constructor 
-    constructor() {
+    constructor(props) {
 
         //here we are calling base class constructor using super()
-        super();
+        super(props);
 
         //here we are intializing the interface's fields using default values.
         this.state = { studentListData: [], loading: true };
